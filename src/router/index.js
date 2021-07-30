@@ -24,6 +24,12 @@ const routes = [
             name: 'Flowline',
             meta: { title: 'Flowline' },
             component: () => import('@/views/d3/flowline/index.vue')
+          },
+          {
+            path: 'mapfly',
+            name: 'MapFly',
+            meta: { title: 'MapFly' },
+            component: () => import('@/views/d3/mapFly/index.vue')
           }
         ]
       }
