@@ -30,6 +30,12 @@ const routes = [
             name: 'MapFly',
             meta: { title: 'MapFly' },
             component: () => import('@/views/d3/mapFly/index.vue')
+          },
+          {
+            path: 'vincent',
+            name: 'Vincent',
+            meta: { title: 'Vincent' },
+            component: () => import('@/views/d3/vincent/index.vue')
           }
         ]
       }
