@@ -36,6 +36,12 @@ const routes = [
             name: 'Vincent',
             meta: { title: 'Vincent' },
             component: () => import('@/views/d3/vincent/index.vue')
+          },
+          {
+            path: 'histogram',
+            name: 'Histogram',
+            meta: { title: 'Histogram' },
+            component: () => import('@/views/d3/histogram/index.vue')
           }
         ]
       }
